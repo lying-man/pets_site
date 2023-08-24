@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+*, *:after, *:before {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+input, button, select, textarea {
+  font-family: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+}
+
+a {
+  text-decoration: none;
+  color: currentColor;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background: #fff;
+  font-family: "Raleway", sans-serif;
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.main {
+  min-width: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 100%;
+          flex: 1 1 100%;
+}
+
+.wrapper {
+  max-width: 1110px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.btn-blue {
+  display: inline-block;
+  text-align: center;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  color: #fff;
+  padding: 25px 86px;
+  border-radius: 9999px;
+  background: #0219EB;
+  -webkit-transition: all .2s ease;
+  transition: all .2s ease;
+  font-size: calc(18px + 6 * ((100vw - 320px) / 1120));
+  padding-top: calc(15px + 10 * ((100vw - 320px) / 1120));
+  padding-bottom: calc(15px + 10 * ((100vw - 320px) / 1120));
+  padding-right: calc(24px + 62 * ((100vw - 320px) / 1120));
+  padding-left: calc(24px + 62 * ((100vw - 320px) / 1120));
+}
+
+@media (hover) {
+  .btn-blue:hover {
+    background: #010e86;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+  }
+}
+
+.title-section {
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  color: #000;
+  font-family: "Comfortaa";
+  text-align: left;
+  font-size: calc(26px + 38 * ((100vw - 320px) / 1120));
+}
+
+.inputPlaceholder:focus + label {
+  display: none;
+}
+
+.inputPlaceholder:not(:placeholder-shown) + label {
+  display: none;
+}
+
+button,
+input,
+a {
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+  -webkit-tap-highlight-color: transparent;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+/*# sourceMappingURL=main.css.map */

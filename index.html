@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Верные друзья | Главная</title>
+    <link rel="shortcut icon" href="img/icon/logoIcon.svg">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/index.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="wrapper">
+
+            <div class="header-top">
+                <div class="header-content">
+                    <a href="#" class="header-content-logo">
+                        <img src="img/icon/logo.svg" alt="логотип">
+                    </a>
+                    <div class="header-info">
+                        <a href="#contact" class="header-info-location">
+                            <img src="img/icon/location.svg" alt="иконка локации">
+                            <span>г. Москва</span>
+                        </a>
+                        <a href="tel:+7 (999)-662-44-99" class="header-info-call">
+                            <img src="img/icon/phone.svg" alt="иконка локации">
+                            <span>+7 (999)-662-44-99</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="header-action">
+                    <button class="header-top-call">Заказать звонок</button>
+                    <button class="burger">
+                        <span class="burger-line"></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="header-bottom">
+                <ul class="header-bottom-wrapper">
+                    <li class="header-menu-item">
+                        <a href="about.html">О нас</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="services.html">Услуги</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="#comment">Отзывы</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="#contact">Контакты</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="#">Новости</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="header-menu-mobile">
+        <ul class="header-bottom-wrapper">
+            <li class="header-menu-item">
+                <a href="about.html">О нас</a>
+            </li>
+            <li class="header-menu-item">
+                <a href="services.html">Услуги</a>
+            </li>
+            <li class="header-menu-item">
+                <a href="#comment">Отзывы</a>
+            </li>
+            <li class="header-menu-item">
+                <a href="#contact">Контакты</a>
+            </li>
+            <li class="header-menu-item">
+                <a href="#">Новости</a>
+            </li>
+        </ul>
+
+        <div class="header-info-mobile">
+            <a href="#contact" class="header-info-location-mobile">
+                <img src="img/icon/location.svg" alt="иконка локации">
+                <span>г. Москва</span>
+            </a>
+            <a href="tel:+7 (999)-662-44-99" class="header-info-call-mobile">
+                <img src="img/icon/phone.svg" alt="иконка локации">
+                <span>+7 (999)-662-44-99</span>
+            </a>
+        </div>
+
+        <button class="close-menu">
+            <img src="img/icon/cross.svg" alt="Крестик">
+        </button>
+
+        <img src="img/order/heartOne.png" class="header-mobile-bg-one" alt="Сердце">
+        <img src="img/order/heartTwo.png" class="header-mobile-bg-two" alt="Сердце">
+        <img src="img/order/heartThree.png" class="header-mobile-bg-three" alt="Сердце">
+    </div>
+
+    <div class="overlay"></div>
+
+    <!-- modal -->
+    <div class="modal">
+
+        <div class="title">
+            Укажите свои <span>актуальные</span> данные, и мы свяжемся с вами в течении <span>10 минут</span>
+        </div>
+
+        <form action="#" class="form-modal">
+            <div class="form-modal-block">
+                <input type="text" class="input-modal inputPlaceholder" placeholder=" ">
+                <label class="label-modal">Имя</label>
+            </div>
+            <div class="form-modal-block form-modal-block-second">
+                <input type="text" class="input-modal inputPlaceholder" placeholder=" ">
+                <label class="label-modal">Номер</label>
+            </div>
+            <div class="check-modal">
+                <input type="checkbox" class="input-modal-checkbox" id="checkboxmodal">
+                <label for="checkboxmodal" class="checkbox-label-modal">Я согласен (на) на обработку персональных данных</label>
+            </div>
+            <div class="form-modal-footer">
+                <button class="btn-call-form">Оставить заявку</button>
+            </div>
+        </form>
+
+        <button class="close-modal">
+            <img src="img/icon/cross.svg" alt="Крестик">
+        </button>
+
+        <img src="img/modal/first.svg" alt="бэкграунд" class="first-img-modal">
+        <img src="img/modal/second.svg" alt="бэкграунд" class="second-img-modal">
+        <img src="img/modal/third.svg" alt="бэкграунд" class="third-img-modal">
+
+    </div>
+
+    <!-- main -->
+    <main class="main">
+        <div class="slider-fullscreen">
+            <img class="slider-fullscreen-img active" data-value="0" src="img/content/sliderMainOne.png" alt="гостиница для животных">
+            <img class="slider-fullscreen-img" data-value="1" src="img/content/sliderMainTwo.png" alt="гостиница для животных">
+            <img class="slider-fullscreen-img" data-value="2" src="img/content/sliderMainThree.png" alt="гостиница для животных">
+
+            <div class="slider-fullscreen-content">
+                <h1 class="slider-fullscreen-title">Гостиница для животных</h1>
+                <div class="slider-fullscreen-text">
+                    <div class="slider-fullscreen-text-item active" data-value="0">
+                        Мы позаботимся о вашем питомце, а вы можете спокойно позабититься о своих делах
+                    </div>
+                    <div class="slider-fullscreen-text-item" data-value="1">
+                        Найдем подход к каждому маленькому другу и  не дадим ему скучать без вас
+                    </div>
+                    <div class="slider-fullscreen-text-item" data-value="2">
+                        Если соскучились, вы можете наблюдать за своим питомцем из любой точки мира 24/7 
+                    </div>
+                </div>
+
+                <div class="slider-fullscreen-action">
+                    <a href="order.html" class="slider-fullscreen-btn btn-blue">Забронировать</a>
+                    <div class="slider-fullscreen-dots">
+                        <button data-value="0" class="fullscreen-dots-item active"></button>
+                        <button data-value="1" class="fullscreen-dots-item"></button>
+                        <button data-value="2" class="fullscreen-dots-item"></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="confidence">
+            <div class="wrapper">
+                <h2 class="confidence-title title-section">Нам можно доверять!</h2>
+                <div class="confidence-content">
+                    <div class="confidence-content-item">
+                        <div class="confidence-text">
+                            В нашей команде только опытные специалисты
+                        </div>
+                        <span>1</span>
+                    </div>
+                    <div class="confidence-content-item">
+                        <div class="confidence-text">
+                            Зоотакси в любую точку Москвы
+                        </div>
+                        <span>2</span>
+                    </div>
+                    <div class="confidence-content-item">
+                        <div class="confidence-text">
+                            Поддерживаем чистоту и комфортную температуру
+                        </div>
+                        <span>3</span>
+                    </div>
+                    <div class="confidence-content-item">
+                        <div class="confidence-text">
+                            Строго соблюдаем все указания владельца
+                        </div>
+                        <span>4</span>
+                    </div>
+                    <div class="confidence-content-item">
+                        <div class="confidence-text">
+                            Видеонаблюдение 24/7
+                        </div>
+                        <span>5</span>
+                    </div>
+                    <div class="confidence-content-item">
+                        <div class="confidence-text">
+                            Предоставляем услуги дрессировки
+                        </div>
+                        <span>6</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="about-us">
+            <div class="wrapper">
+                <h2 class="about-us-title title-section">Немного о нас</h2>
+
+                <div class="about-us-top">
+                    <div class="about-us-top-content">
+                        <div class="about-us_one">
+                            «Верные друзья» - гостиница с высоким уровнем комфорта для собак и кошек 
+                            в Московской области.
+                        </div>
+                        <div class="about-us_two">
+                            Гостиница обеспечивает комфортное размещение и пребывание вашего любимца 
+                            в индивидуальных номерах. Специалисты по уходу за вашим питомцем будут заботятся о нем в ваше отсутствие.
+                        </div>
+                    </div>
+                    <div class="about-us-top-image">
+                        <img src="img/content/aboutMainImg.jpg" alt="Собака">
+                    </div>
+                </div>
+
+                <div class="about-us-stats">
+                    <div class="about-us-stats-block">
+                        <div class="about-us_three">1000</div>
+                        <div class="about-us_four">кв.м-площадь гстиницы</div>
+                    </div>
+                    <div class="about-us-stats-block">
+                        <div class="about-us_three">70</div>
+                        <div class="about-us_four">комфортных номеров</div>
+                    </div>
+                </div>
+
+                <ul class="about-us-list">
+                    <li class="about-us-list-item">
+                        <img src="img/icon/listIcon.svg" alt="Лапка">
+                        <span>
+                            В нашей гостинице есть отдельное помещение со специальным оборудованием для размещения собак и кошек , которым нужна реабилитация и процедуры для восстановления после операций.
+                        </span>
+                    </li>
+                    <li class="about-us-list-item">
+                        <img src="img/icon/listIcon.svg" alt="Лапка">
+                        <span>
+                            Мы предоставляем услуги дрессировки или корректировки поведения вашего питомца. Специалисты проводят уроки в  специальных зонах для дрессировки, оборудованными различными тренажерами.
+                        </span>
+                    </li>
+                </ul>
+
+                <div class="about-us-bottom">
+                    <div class="about-us-bottom-image">
+                        <img src="img/content/aboutMainTwoImg.jpg" alt="Собака">
+                    </div>
+                    <div class="about-us-bottom-content">
+                        <div>
+                            Каждый день мы находимся 
+                            на страже безопасности 
+                            и комфорта вашего питомца, обеспечивая ему домашний уют
+                        </div>
+                        <a href="order.html" class="btn-blue">Забронировать</a>
+                    </div>
+                </div>
+            </div>
+
+            <img src="img/about/heartOne.png" class="about-us-bg_one" alt="Сердечко">
+            <img src="img/about/heartTwo.png" class="about-us-bg_two" alt="Сердечко">
+            <img src="img/about/heartThree.png" class="about-us-bg_three" alt="Сердечко">
+        </div>
+
+        <div class="comfort-cat">
+            <div class="wrapper">
+                <div class="comfort-cat-title">Комфорт как дома</div>
+                <div class="comfort-cat-text">
+                    Наша задача - обеспечить вашему питомцу уютную атмосферу и безопасность
+                </div>
+                <a href="order.html" class="btn-blue">Забронировать</a>
+            </div>
+        </div>
+
+        <div class="hotel-main">
+            <div class="wrapper">
+                <h2 class="hotel-main-title title-section">Зоо гостиница</h2>
+                <div class="hotel-main-content">
+                    <button class="hotel-main-content-item active" data-name="mini">
+                        <div class="hotel-main-item-title">Номер «Мини»</div>
+                        <div class="hotel-main-item-text">
+                            <span>Стоимость</span>
+                            <span>от 500 ₽/день</span>
+                        </div>
+                    </button>
+                    <button class="hotel-main-content-item" data-name="standart">
+                        <div class="hotel-main-item-title">Номер «Стандарт»</div>
+                        <div class="hotel-main-item-text">
+                            <span>Стоимость</span>
+                            <span>от 700 ₽/день</span>
+                        </div>
+                    </button>
+                    <button class="hotel-main-content-item" data-name="luxuru">
+                        <div class="hotel-main-item-title">Номер «Люкс»</div>
+                        <div class="hotel-main-item-text">
+                            <span>Стоимость</span>
+                            <span>от 990 ₽/день</span>
+                        </div>
+                    </button>
+                </div>
+
+                <div class="hotel-main-slider-box active" data-name="mini">
+                    <div class="hotel-main-slider">
+                        <div class="hotel-main-slider-title">Номер «Мини»</div>
+                        <div class="hotel-main-slider-content">
+                            <div class="hotel-slider-box">
+                                <div class="hotel-slider-box-wrapper" data-type="mini">
+                                    <img class="active" src="img/content/hotelSliderOne.jpg" data-value="0" alt="картинка слайдера">
+                                    <img src="img/content/hotelSliderTwo.jpg" data-value="1" alt="картинка слайдера">
+                                    <img src="img/content/hotelSliderThree.jpg" data-value="2" alt="картинка слайдера">
+                                    <img src="img/content/hotelSliderFour.jpg" data-value="3" alt="картинка слайдера">
+                                    <img src="img/content/hotelSliderFive.jpg" data-value="4" alt="картинка слайдера">
+                                    <div class="hotel-slider-dots" data-type="mini">
+                                        <button class="hotel-slider-dots-item active" data-value="0"></button>
+                                        <button class="hotel-slider-dots-item" data-value="1"></button>
+                                        <button class="hotel-slider-dots-item" data-value="2"></button>
+                                        <button class="hotel-slider-dots-item" data-value="3"></button>
+                                        <button class="hotel-slider-dots-item" data-value="4"></button>
+                                    </div>
+                                </div>
+                                <div class="hotel-slider-box-list" data-type="mini">
+                                    <button class="hotel-slider-thumb active" data-value="0">
+                                        <img src="img/content/hotelSliderOne.jpg" alt="картинка слайдера">
+                                    </button>
+                                    <button class="hotel-slider-thumb" data-value="1">
+                                        <img src="img/content/hotelSliderTwo.jpg" alt="картинка слайдера">
+                                    </button>
+                                    <button class="hotel-slider-thumb" data-value="2">
+                                        <img src="img/content/hotelSliderThree.jpg" alt="картинка слайдера">
+                                    </button>
+                                    <button class="hotel-slider-thumb" data-value="3">
+                                        <img src="img/content/hotelSliderFour.jpg" alt="картинка слайдера">
+                                    </button>
+                                    <button class="hotel-slider-thumb" data-value="4">
+                                        <img src="img/content/hotelSliderFive.jpg" alt="картинка слайдера">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hotel-slider-images" data-type="mini">
+                                <button class="hotel-slider-images-btn" data-value="1">
+                                    <img src="img/content/hotelSliderTwo.jpg" alt="Картинка слайдера">
+                                </button>
+                                <button class="hotel-slider-images-btn" data-value="2">
+                                    <img src="img/content/hotelSliderThree.jpg" alt="Картинка слайдера">
+                                </button>
+                                <button class="hotel-slider-images-btn" data-value="3">
+                                    <img src="img/content/hotelSliderFour.jpg" alt="Картинка слайдера">
+                                </button>
+                                <button class="hotel-slider-images-btn" data-value="4">
+                                    <img src="img/content/hotelSliderFive.jpg" alt="Картинка слайдера">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hotel-main-info">
+                        <div class="hotel-main-info-block">
+                            <div class="hotel-info-title">
+                                <div>Стоимость</div>
+                                <div>от 500 ₽/день</div>
+                            </div>
+                            <div class="hotel-info-text">
+                                Просторный номер со всеми удобствами для кошек и собак декоративных пород весом до 10 кг.
+                            </div>
+                            <div class="hotel-info-bottom">
+                                <a href="order.html" class="btn-blue">Забронировать</a>
+                                <a href="#">
+                                    <span>Подробнее</span>
+                                    <img src="img/icon/arrowRight.svg" alt="стрелка">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="hotel-main-info-block">
+                            <div class="hotel-info-title-list">
+                                Дополнительные услуги
+                            </div>
+                            <ul>
+                                <li>Зоотакси</li>
+                                <li>Груминг</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hotel-main-slider-box" data-name="standart">
+                    <div class="hotel-main-slider">
+                        <div class="hotel-main-slider-title">Номер «Стандарт»</div>
+                        <div class="hotel-main-slider-content">
+                            <div class="hotel-slider-box">
+                                <div class="hotel-slider-box-wrapper" data-type="standart">
+                                    <img class="active" src="img/content/hotelSliderOne.jpg" data-value="0" alt="картинка слайдера">
+                                    <img src="img/content/hotelSliderTwo.jpg" data-value="1" alt="картинка слайдера">
+                                    <img src="img/content/hotelSliderThree.jpg" data-value="2" alt="картинка слайдера">
+                                    <img src="img/content/hotelSliderFour.jpg" data-value="3" alt="картинка слайдера">
+                                    <img src="img/content/hotelSliderFive.jpg" data-value="4" alt="картинка слайдера">
+                                    <div class="hotel-slider-dots" data-type="standart">
+                                        <button class="hotel-slider-dots-item active" data-value="0"></button>
+                                        <button class="hotel-slider-dots-item" data-value="1"></button>
+                                        <button class="hotel-slider-dots-item" data-value="2"></button>
+                                        <button class="hotel-slider-dots-item" data-value="3"></button>
+                                        <button class="hotel-slider-dots-item" data-value="4"></button>
+                                    </div>
+                                </div>
+                                <div class="hotel-slider-box-list" data-type="standart">
+                                    <button class="hotel-slider-thumb active" data-value="0">
+                                        <img src="img/content/hotelSliderOne.jpg" alt="картинка слайдера">
+                                    </button>
+                                    <button class="hotel-slider-thumb" data-value="1">
+                                        <img src="img/content/hotelSliderTwo.jpg" alt="картинка слайдера">
+                                    </button>
+                                    <button class="hotel-slider-thumb" data-value="2">
+                                        <img src="img/content/hotelSliderThree.jpg" alt="картинка слайдера">
+                                    </button>
+                                    <button class="hotel-slider-thumb" data-value="3">
+                                        <img src="img/content/hotelSliderFour.jpg" alt="картинка слайдера">
+                                    </button>
+                                    <button class="hotel-slider-thumb" data-value="4">
+                                        <img src="img/content/hotelSliderFive.jpg" alt="картинка слайдера">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hotel-slider-images" data-type="standart">
+                                <button class="hotel-slider-images-btn" data-value="1">
+                                    <img src="img/content/hotelSliderTwo.jpg" alt="Картинка слайдера">
+                                </button>
+                                <button class="hotel-slider-images-btn" data-value="2">
+                                    <img src="img/content/hotelSliderThree.jpg" alt="Картинка слайдера">
+                                </button>
+                                <button class="hotel-slider-images-btn" data-value="3">
+                                    <img src="img/content/hotelSliderFour.jpg" alt="Картинка слайдера">
+                                </button>
+                                <button class="hotel-slider-images-btn" data-value="4">
+                                    <img src="img/content/hotelSliderFive.jpg" alt="Картинка слайдера">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hotel-main-info">
+                        <div class="hotel-main-info-block">
+                            <div class="hotel-info-title">
+                                <div>Стоимость</div>
+                                <div>от 700 ₽/день</div>
+                            </div>
+                            <div class="hotel-info-text">
+                                Просторный номер со всеми удобствами для кошек и собак декоративных пород весом до 20 кг.
+                            </div>
+                            <div class="hotel-info-bottom">
+                                <a href="order.html" class="btn-blue">Забронировать</a>
+                                <a href="#">
+                                    <span>Подробнее</span>
+                                    <img src="img/icon/arrowRight.svg" alt="стрелка">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="hotel-main-info-block">
+                            <div class="hotel-info-title-list">
+                                Дополнительные услуги
+                            </div>
+                            <ul>
+                                <li>Зоотакси</li>
+                                <li>Груминг</li>
+                                <li>Реабилитация</li>
+                                <li>Видеонаблюдение</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="hotel-main-slider-box" data-name="luxuru">
+                    <div class="hotel-main-slider">
+                        <div class="hotel-main-slider-title">Номер «Люкс»</div>
+                        <div class="hotel-main-slider-content">
+                            <div class="hotel-slider-box">
+                                <div class="hotel-slider-box-wrapper" data-type="luxuru">
+                                    <img class="active" src="img/content/hotelSliderOne.jpg" data-value="0" alt="картинка слайдера">
+                                    <img src="img/content/hotelSliderTwo.jpg" data-value="1" alt="картинка слайдера">
+                                    <img src="img/content/hotelSliderThree.jpg" data-value="2" alt="картинка слайдера">
+                                    <img src="img/content/hotelSliderFour.jpg" data-value="3" alt="картинка слайдера">
+                                    <img src="img/content/hotelSliderFive.jpg" data-value="4" alt="картинка слайдера">
+                                    <div class="hotel-slider-dots" data-type="luxuru">
+                                        <button class="hotel-slider-dots-item active" data-value="0"></button>
+                                        <button class="hotel-slider-dots-item" data-value="1"></button>
+                                        <button class="hotel-slider-dots-item" data-value="2"></button>
+                                        <button class="hotel-slider-dots-item" data-value="3"></button>
+                                        <button class="hotel-slider-dots-item" data-value="4"></button>
+                                    </div>
+                                </div>
+                                <div class="hotel-slider-box-list" data-type="luxuru">
+                                    <button class="hotel-slider-thumb active" data-value="0">
+                                        <img src="img/content/hotelSliderOne.jpg" alt="картинка слайдера">
+                                    </button>
+                                    <button class="hotel-slider-thumb" data-value="1">
+                                        <img src="img/content/hotelSliderTwo.jpg" alt="картинка слайдера">
+                                    </button>
+                                    <button class="hotel-slider-thumb" data-value="2">
+                                        <img src="img/content/hotelSliderThree.jpg" alt="картинка слайдера">
+                                    </button>
+                                    <button class="hotel-slider-thumb" data-value="3">
+                                        <img src="img/content/hotelSliderFour.jpg" alt="картинка слайдера">
+                                    </button>
+                                    <button class="hotel-slider-thumb" data-value="4">
+                                        <img src="img/content/hotelSliderFive.jpg" alt="картинка слайдера">
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="hotel-slider-images" data-type="luxuru">
+                                <button class="hotel-slider-images-btn" data-value="1">
+                                    <img src="img/content/hotelSliderTwo.jpg" alt="Картинка слайдера">
+                                </button>
+                                <button class="hotel-slider-images-btn" data-value="2">
+                                    <img src="img/content/hotelSliderThree.jpg" alt="Картинка слайдера">
+                                </button>
+                                <button class="hotel-slider-images-btn" data-value="3">
+                                    <img src="img/content/hotelSliderFour.jpg" alt="Картинка слайдера">
+                                </button>
+                                <button class="hotel-slider-images-btn" data-value="4">
+                                    <img src="img/content/hotelSliderFive.jpg" alt="Картинка слайдера">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hotel-main-info">
+                        <div class="hotel-main-info-block">
+                            <div class="hotel-info-title">
+                                <div>Стоимость</div>
+                                <div>от 990 ₽/день</div>
+                            </div>
+                            <div class="hotel-info-text">
+                                Просторный номер со всеми удобствами для кошек и собак декоративных пород весом до 30 кг.
+                            </div>
+                            <div class="hotel-info-bottom">
+                                <a href="order.html" class="btn-blue">Забронировать</a>
+                                <a href="#">
+                                    <span>Подробнее</span>
+                                    <img src="img/icon/arrowRight.svg" alt="стрелка">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="hotel-main-info-block">
+                            <div class="hotel-info-title-list">
+                                Дополнительные услуги
+                            </div>
+                            <ul>
+                                <li>Зоотакси</li>
+                                <li>Груминг</li>
+                                <li>Реабилитация</li>
+                                <li>Видеонаблюдение</li>
+                                <li>Дрессировка</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="speak-main" id="comment">
+            <div class="wrapper">
+                <h2 class="speak-main-title title-section">Про нас говорят</h2>
+                <div class="speak-main-content">
+                    <div class="speak-main-content-item">
+                        <div class="speak-main-item-top">
+                            <img src="img/content/speakAvatarOne.png" alt="Аватар">
+                            <span>Иван А.</span>
+                        </div>
+                        <div class="speak-main-item-text">
+                            Шепот одобрения пронесся по рядам слушателей, когда Вивальдо окончил чтение. По сам он находил, что выраженная в этом стихотворении ревность не вяжется с слухом о том, что Марселла никому из своих поклонников не отдавала предпочтения.
+                        </div>
+                        <div class="speak-main-item-rating">
+                            <img src="img/icon/rating.svg" alt="Рейтинг">
+                            <img src="img/icon/rating.svg" alt="Рейтинг">
+                            <img src="img/icon/rating.svg" alt="Рейтинг">
+                            <img src="img/icon/rating.svg" alt="Рейтинг">
+                            <img src="img/icon/rating.svg" alt="Рейтинг">
+                        </div>
+                    </div>
+                    <div class="speak-main-content-item">
+                        <div class="speak-main-item-top">
+                            <img src="img/content/speakAvatarTwo.png" alt="Аватар">
+                            <span>Кристина С.</span>
+                        </div>
+                        <div class="speak-main-item-text">
+                            Рыцарь хотел было уже ехать дальше, как вдруг увидел всадника, голова которого была покрыта каким-то предметом, сверкавшим как золото.
+                        </div>
+                        <div class="speak-main-item-rating">
+                            <img src="img/icon/rating.svg" alt="Рейтинг">
+                            <img src="img/icon/rating.svg" alt="Рейтинг">
+                            <img src="img/icon/rating.svg" alt="Рейтинг">
+                            <img src="img/icon/rating.svg" alt="Рейтинг">
+                        </div>
+                    </div>
+                    <div class="speak-main-content-item">
+                        <div class="speak-main-item-top">
+                            <img src="img/content/speakAvatarThree.png" alt="Аватар">
+                            <span>Светлана М.</span>
+                        </div>
+                        <div class="speak-main-item-text">
+                            Я поместил в этой книге только то, что относилось к пребывания Печорина на Кавказе; в моих руках осталась еще толстая тетрадь, где он рассказывает всю жизнь свою. Когда-нибудь и она явится на суд света; но теперь я не смею взять на себя эту ответственность по многим важным причинам.
+                        </div>
+                        <div class="speak-main-item-rating">
+                            <img src="img/icon/rating.svg" alt="Рейтинг">
+                            <img src="img/icon/rating.svg" alt="Рейтинг">
+                            <img src="img/icon/rating.svg" alt="Рейтинг">
+                            <img src="img/icon/rating.svg" alt="Рейтинг">
+                            <img src="img/icon/rating.svg" alt="Рейтинг">
+                        </div>
+                    </div>
+                    <div class="speak-main-content-item">
+                        <div class="speak-main-item-top">
+                            <img src="img/content/speakAvatarFour.png" alt="Аватар">
+                            <span>Захар Т.</span>
+                        </div>
+                        <div class="speak-main-item-text">
+                            Полный месяц светил на камышовую крышу и белые стены моего нового жилища; на дворе, обведенном оградой из булыжника, стояла избочась другая лачужка, менее и древнее первой.
+                        </div>
+                        <div class="speak-main-item-rating">
+                            <img src="img/icon/rating.svg" alt="Рейтинг">
+                            <img src="img/icon/rating.svg" alt="Рейтинг">
+                            <img src="img/icon/rating.svg" alt="Рейтинг">
+                            <img src="img/icon/rating.svg" alt="Рейтинг">
+                            <img src="img/icon/rating.svg" alt="Рейтинг">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-interest">
+            <div class="wrapper">
+                <h2 class="main-interest-title title-section">С нами интересно</h2>
+                <div class="main-interest-content">
+                    <div class="main-interest-content-block">
+                        <div class="main-interest-box">
+                            <img class="active" src="img/content/interestOneImg.jpg" data-value="0" alt="Картинка слайдера">
+                            <img src="img/content/interestTwoImg.jpg" data-value="1" alt="Картинка слайдера">
+                            <img src="img/content/interestThreeImg.jpg" data-value="2" alt="Картинка слайдера">
+                            <img src="img/content/interestFourImg.jpg" data-value="3" alt="Картинка слайдера">
+                            <img src="img/content/interestFiveImg.jpg" data-value="4" alt="Картинка слайдера">
+                            <img src="img/content/interestSixImg.jpg" data-value="5" alt="Картинка слайдера">
+                            <img src="img/content/interestSevenImg.jpg" data-value="6" alt="Картинка слайдера">
+                        </div>
+                        <div class="main-interest-dots">
+                            <button class="main-interest-dots-item active" data-value="0"></button>
+                            <button class="main-interest-dots-item" data-value="1"></button>
+                            <button class="main-interest-dots-item" data-value="2"></button>
+                            <button class="main-interest-dots-item" data-value="3"></button>
+                            <button class="main-interest-dots-item" data-value="4"></button>
+                            <button class="main-interest-dots-item" data-value="5"></button>
+                            <button class="main-interest-dots-item" data-value="6"></button>
+                        </div>
+                        <div class="main-interest-actions">
+                            <button class="main-interest-actions-btn active" data-value="0">
+                                <img src="img/content/interestOneImg.jpg" alt="Картинка слайдера">
+                            </button>
+                            <button class="main-interest-actions-btn" data-value="1">
+                                <img src="img/content/interestTwoImg.jpg" alt="Картинка слайдера">
+                            </button>
+                            <button class="main-interest-actions-btn" data-value="2">
+                                <img src="img/content/interestThreeImg.jpg" alt="Картинка слайдера">
+                            </button>
+                            <button class="main-interest-actions-btn" data-value="3">
+                                <img src="img/content/interestFourImg.jpg" alt="Картинка слайдера">
+                            </button>
+                            <button class="main-interest-actions-btn" data-value="4">
+                                <img src="img/content/interestFiveImg.jpg" alt="Картинка слайдера">
+                            </button>
+                            <button class="main-interest-actions-btn" data-value="5">
+                                <img src="img/content/interestSixImg.jpg" alt="Картинка слайдера">
+                            </button>
+                            <button class="main-interest-actions-btn" data-value="6">
+                                <img src="img/content/interestSevenImg.jpg" alt="Картинка слайдера">
+                            </button>
+                        </div>
+                        <div class="main-interest-text">
+                            В нашей гостинице много игрушек и развлечений для маленьких друзей. Наши заботливые специалисты уделяют достаточно времени каждому пушистику. Так что вы можете быть спокойным, вашему питомцу не придется скучать одному.
+                        </div>
+                    </div>
+                    <div class="main-interest-img">
+                        <button class="main-interest-img-btn" data-value="1">
+                            <img src="img/content/interestTwoImg.jpg" alt="Картинка слайдера">
+                        </button>
+                        <button class="main-interest-img-btn" data-value="2">
+                            <img src="img/content/interestThreeImg.jpg" alt="Картинка слайдера">
+                        </button>
+                        <button class="main-interest-img-btn" data-value="3">
+                            <img src="img/content/interestFourImg.jpg" alt="Картинка слайдера">
+                        </button>
+                        <button class="main-interest-img-btn" data-value="4">
+                            <img src="img/content/interestFiveImg.jpg" alt="Картинка слайдера">
+                        </button>
+                        <button class="main-interest-img-btn" data-value="5">
+                            <img src="img/content/interestSixImg.jpg" alt="Картинка слайдера">
+                        </button>
+                        <button class="main-interest-img-btn" data-value="6">
+                            <img src="img/content/interestSevenImg.jpg" alt="Картинка слайдера">
+                        </button>
+                    </div>
+                </div>
+                <div class="main-interest-bottom">
+                    <a href="order.html" class="btn-blue">Забронировать</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="main-location" id="contact">
+            <div class="wrapper">
+                <h2 class="main-location-title title-section">Как нас найти?</h2>
+                <div class="main-location-content">
+                    <div class="main-location-box">
+                        <div class="main-location-box-item">
+                            <img class="main-location-icon" src="img/icon/phone.svg" alt="телефон" />
+                            <div class="main-location-wrap">
+                                <div>Контакты</div>
+                                <a href="tel:+7 (999)-662-44-99">+7 (999)-662-44-99</a>
+                                <div>Круглосуточно</div>
+                            </div>
+                        </div>
+                        <div class="main-location-box-item">
+                            <img class="main-location-icon" src="img/icon/location.svg" alt="телефон" />
+                            <div class="main-location-wrap">
+                                <div>Адрес</div>
+                                <div>Московская область,</div>
+                                <div>Ленинский район.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- footer -->
+    <footer class="footer">
+        <div class="wrapper">
+
+            <div class="footer-top">
+
+                <div class="footer-links">
+                    <div class="footer-links-logo">
+                        <img src="img/icon/logoIcon.svg" alt="Логотип">
+                    </div>
+                    <div class="footer-social">
+                        <a href="http://instagram.com" class="footer-social-link">
+                            <img src="img/icon/instagram.svg" alt="instagram">
+                        </a>
+                        <a href="http://vk.com" class="footer-social-link">
+                            <img src="img/icon/vk.svg" alt="vk">
+                        </a>
+                        <a href="http://telegram.com" class="footer-social-link">
+                            <img src="img/icon/telegram.svg" alt="telegram">
+                        </a>
+                        <a href="http://whatsapp.com" class="footer-social-link">
+                            <img src="img/icon/whatsapp.svg" alt="whatsapp">
+                        </a>
+                    </div>
+                    <div class="footer-bottom-name">ИП Человек Ч.Ч.</div>
+                </div>
+
+                <div class="footer-info-wrapper">
+                    <ul class="footer-pages">
+                        <li class="footer-pages-item"><a href="#">Главная</a></li>
+                        <li class="footer-pages-item"><a href="#">О нас</a></li>
+                        <li class="footer-pages-item"><a href="#">Услуги</a></li>
+                        <li class="footer-pages-item">
+                            <a href="#" target="_blank">
+                                Политика конфиденциальности
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <div class="footer-location">
+                        <div>Московская область,</div>
+                        <div>Ленинский район</div>
+                        <a href="mailto:mail@yandex.ru" class="footer-bottom-post">mail@yandex.ru</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <img class="footer-bg-one" src="img/footer/first.svg" alt="background">
+        <img class="footer-bg-two" src="img/footer/second.svg" alt="background">
+        <img class="footer-bg-three" src="img/footer/third.svg" alt="background">
+        <img class="footer-bg-four" src="img/footer/fourst.svg" alt="background">
+    </footer>
+
+    <script src="JS/header.js"></script>
+    <script src="JS/index.js"></script>
+</body>
+</html>

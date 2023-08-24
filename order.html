@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Верные друзья | Забронировать</title>
+    <link rel="shortcut icon" href="img/icon/logoIcon.svg">
+    <link rel="stylesheet" href="CSS/datepicker.css">
+    <link rel="stylesheet" href="CSS/header.css">
+    <link rel="stylesheet" href="CSS/footer.css">
+    <link rel="stylesheet" href="CSS/main.css">
+    <link rel="stylesheet" href="CSS/order.css">
+</head>
+<body>
+    <!-- header -->
+    <header class="header">
+        <div class="wrapper">
+
+            <div class="header-top">
+                <div class="header-content">
+                    <a href="#" class="header-content-logo">
+                        <img src="img/icon/logo.svg" alt="логотип">
+                    </a>
+                    <div class="header-info">
+                        <a href="#" class="header-info-location">
+                            <img src="img/icon/location.svg" alt="иконка локации">
+                            <span>г. Москва</span>
+                        </a>
+                        <a href="tel:+7 (999)-662-44-99" class="header-info-call">
+                            <img src="img/icon/phone.svg" alt="иконка локации">
+                            <span>+7 (999)-662-44-99</span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="header-action">
+                    <button class="header-top-call">Заказать звонок</button>
+                    <button class="burger">
+                        <span class="burger-line"></span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="header-bottom">
+                <ul class="header-bottom-wrapper">
+                    <li class="header-menu-item">
+                        <a href="about.html">О нас</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="services.html">Услуги</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="#">Отзывы</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="#">Контакты</a>
+                    </li>
+                    <li class="header-menu-item">
+                        <a href="#">Новости</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </header>
+
+    <div class="header-menu-mobile">
+        <ul class="header-bottom-wrapper">
+            <li class="header-menu-item">
+                <a href="about.html">О нас</a>
+            </li>
+            <li class="header-menu-item">
+                <a href="services.html">Услуги</a>
+            </li>
+            <li class="header-menu-item">
+                <a href="#">Отзывы</a>
+            </li>
+            <li class="header-menu-item">
+                <a href="#">Контакты</a>
+            </li>
+            <li class="header-menu-item">
+                <a href="#">Новости</a>
+            </li>
+        </ul>
+
+        <div class="header-info-mobile">
+            <a href="#" class="header-info-location-mobile">
+                <img src="img/icon/location.svg" alt="иконка локации">
+                <span>г. Москва</span>
+            </a>
+            <a href="tel:+7 (999)-662-44-99" class="header-info-call-mobile">
+                <img src="img/icon/phone.svg" alt="иконка локации">
+                <span>+7 (999)-662-44-99</span>
+            </a>
+        </div>
+
+        <button class="close-menu">
+            <img src="img/icon/cross.svg" alt="Крестик">
+        </button>
+
+        <img src="img/order/heartOne.png" class="header-mobile-bg-one" alt="Сердце">
+        <img src="img/order/heartTwo.png" class="header-mobile-bg-two" alt="Сердце">
+        <img src="img/order/heartThree.png" class="header-mobile-bg-three" alt="Сердце">
+    </div>
+
+    <div class="overlay"></div>
+
+    <!-- modal -->
+    <div class="modal">
+
+        <div class="title">
+            Укажите свои <span>актуальные</span> данные, и мы свяжемся с вами в течении <span>10 минут</span>
+        </div>
+
+        <form action="#" class="form-modal">
+            <div class="form-modal-block">
+                <input type="text" class="input-modal inputPlaceholder" placeholder=" ">
+                <label class="label-modal">Имя</label>
+            </div>
+            <div class="form-modal-block form-modal-block-second">
+                <input type="text" class="input-modal inputPlaceholder" placeholder=" ">
+                <label class="label-modal">Номер</label>
+            </div>
+            <div class="check-modal">
+                <input type="checkbox" class="input-modal-checkbox" id="checkboxmodal">
+                <label for="checkboxmodal" class="checkbox-label-modal">Я согласен (на) на обработку персональных данных</label>
+            </div>
+            <div class="form-modal-footer">
+                <button class="btn-call-form">Оставить заявку</button>
+            </div>
+        </form>
+
+        <button class="close-modal">
+            <img src="img/icon/cross.svg" alt="Крестик">
+        </button>
+
+        <img src="img/modal/first.svg" alt="бэкграунд" class="first-img-modal">
+        <img src="img/modal/second.svg" alt="бэкграунд" class="second-img-modal">
+        <img src="img/modal/third.svg" alt="бэкграунд" class="third-img-modal">
+
+    </div>
+
+    <main class="main">
+        <div class="container">
+            <div class="wrapper-links">
+                <div class="links">
+                    <a href="index.html">Главная</a>
+                    <span>/Забронировать</span>
+                </div>
+            </div>
+            <div class="container-top">
+                <div class="container-wrapper">
+                    <h1 class="container-top-title">
+                        <span>Забронировать</span> номер в гостинице для питомца
+                    </h1>
+                    <div class="container-top-indicator">
+                        <div class="step-one active">1</div>
+                        <img src="img/order/arrowRight.svg" alt="Стрелка">
+                        <div class="step-two">2</div>
+                    </div>
+                    <form action="#" class="form">
+    
+                        <div class="step-form-one">
+                            <div class="form-full">
+                                <div class="form-full-block">
+                                    <input type="text" placeholder=" " class="inputPlaceholder first" autocomplete="off">
+                                    <label>ФИО</label>
+                                </div>
+                                <div class="form-full-block">
+                                    <input type="text" placeholder=" " class="inputPlaceholder first" autocomplete="off">
+                                    <label>Номер телефона</label>
+                                </div>
+                                <button type="button" class="select select-single" data-value="default">
+                                    <span class="select-title">Выбрать номер</span>
+                                    <img src="img/order/arrowSelect.svg" alt="Стрелка">
+                                </button>
+                                <div class="select-dropdown">
+                                    <div class="select-dropdown-block">
+                                        <div class="select-dropdown-block-item">
+                                            <input id="one" type="radio" name="single" value="«Мини» для кошек" 
+                                            class="select-single-input" >
+                                            <label for="one">«Мини» для кошек</label>
+                                        </div>
+                                        <div class="select-dropdown-block-item">
+                                            <input id="two" type="radio" name="single" value="«Стандарт» для кошек" class="select-single-input">
+                                            <label for="two">«Стандарт» для кошек</label>
+                                        </div>
+                                        <div class="select-dropdown-block-item">
+                                            <input id="three" type="radio" name="single" value="«Люкс» для кошек" class="select-single-input">
+                                            <label for="three">«Люкс» для кошек</label>
+                                        </div>
+                                    </div>
+                                    <div class="select-dropdown-block">
+                                        <div class="select-dropdown-block-item">
+                                            <input id="four" type="radio" name="single" value="«Мини» для собак" class="select-single-input">
+                                            <label for="four">«Мини» для собак</label>
+                                        </div>
+                                        <div class="select-dropdown-block-item">
+                                            <input id="five" type="radio" name="single" value="«Стандарт» для собак" class="select-single-input">
+                                            <label for="five">«Стандарт» для собак</label>
+                                        </div>
+                                        <div class="select-dropdown-block-item">
+                                            <input id="six" type="radio" name="single" value="«Люкс» для собак" class="select-single-input">
+                                            <label for="six">«Люкс» для собак</label>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="form-double">
+                                <div class="form-double-block">
+                                    <input type="text" placeholder=" " class="inputPlaceholder first" autocomplete="off">
+                                    <label>Порода животного</label>
+                                </div>
+                                <div class="form-double-block">
+                                    <input type="text" placeholder=" " class="inputPlaceholder first" autocomplete="off">
+                                    <label>Кличка питомца (ев)</label>
+                                </div>
+                                <div class="form-double-block">
+                                    <input id="date-one" type="text" placeholder=" " class="inputPlaceholder first" autocomplete="off">
+                                    <label>Дата заезда</label>
+                                </div>
+                                <div class="form-double-block">
+                                    <input id="date-two" type="text" placeholder=" " class="inputPlaceholder first" autocomplete="off">
+                                    <label>Дата выезда</label>
+                                </div>
+                            </div>
+                            <div class="step-form-one-action">
+                                <button type="button" class="next-step-form btn-blue">Продолжить</button>
+                            </div>
+                        </div>
+    
+                        <div class="step-form-two hide">
+                            <button type="button" class="select select-multiple-one" data-value="default">
+                                <span class="select-title">Предпочтение в еде</span>
+                                <img src="img/order/arrowSelect.svg" alt="Стрелка">
+                            </button>
+                            <div class="select-dropdown">
+                                <div class="select-dropdown-block">
+                                    <div class="select-dropdown-block-item">
+                                        <input id="nine" type="radio" name="single" value="Натуральный корм" 
+                                        class="select-multiple-input-one" >
+                                        <label for="nine">Натуральный корм</label>
+                                    </div>
+                                    <div class="select-dropdown-block-item">
+                                        <input id="ten" type="radio" name="single" value="Сухой/влажный корм" class="select-multiple-input-one">
+                                        <label for="ten">Сухой/влажный корм</label>
+                                    </div>
+                                    <div class="select-dropdown-block-item">
+                                        <input id="eleven" type="radio" name="single" value="Смешанное питание" class="select-multiple-input-one">
+                                        <label for="eleven">Смешанное питание</label>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <button type="button" class="select select-multiple-two" data-value="default">
+                                <span class="select-title">Выбрать дополнительные услуги</span>
+                                <img src="img/order/arrowSelect.svg" alt="Стрелка">
+                            </button>
+                            <div class="select-dropdown">
+                                <div class="select-dropdown-block">
+                                    <div class="select-dropdown-block-item">
+                                        <input id="twelwe" type="checkbox" name="single" value="Натуральный корм" 
+                                        class="select-multiple-input-two" >
+                                        <label for="twelwe">ЗооТакси</label>
+                                    </div>
+                                    <div class="select-dropdown-block-item">
+                                        <input id="thirteen" type="checkbox" name="single" value="Сухой/влажный корм" class="select-multiple-input-two">
+                                        <label for="thirteen">Груминг</label>
+                                    </div>
+                                    <div class="select-dropdown-block-item">
+                                        <input id="fourteen" type="checkbox" name="single" value="Смешанное питание" class="select-multiple-input-two">
+                                        <label for="fourteen">Дрессировка</label>
+                                    </div>
+                                </div>
+                                <div class="select-dropdown-block">
+                                    <div class="select-dropdown-block-item">
+                                        <input id="fiveteen" type="checkbox" name="single" value="Сухой/влажный корм" class="select-multiple-input-two">
+                                        <label for="fiveteen">Восстановительный уход</label>
+                                    </div>
+                                    <div class="select-dropdown-block-item">
+                                        <input id="sixteen" type="checkbox" name="single" value="Смешанное питание" class="select-multiple-input-two">
+                                        <label for="sixteen">Видеонаблюдение 24/7</label>
+                                    </div>
+                                </div>
+                            </div>
+    
+                            <div class="step-two-form-bottom">
+                                <button class="btn-blue btn-complete" type="button">Забронировать</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+
+        <img src="img/order/heartOne.png" class="bg-order-one" alt="Сердечко">
+        <img src="img/order/heartTwo.png" class="bg-order-two" alt="Сердечко">
+        <img src="img/order/heartThree.png" class="bg-order-three" alt="Сердечко">
+    </main>
+
+    <!-- footer -->
+    <footer class="footer">
+        <div class="wrapper">
+
+            <div class="footer-top">
+
+                <div class="footer-links">
+                    <div class="footer-links-logo">
+                        <img src="img/icon/logoIcon.svg" alt="Логотип">
+                    </div>
+                    <div class="footer-social">
+                        <a href="http://instagram.com" class="footer-social-link">
+                            <img src="img/icon/instagram.svg" alt="instagram">
+                        </a>
+                        <a href="http://vk.com" class="footer-social-link">
+                            <img src="img/icon/vk.svg" alt="vk">
+                        </a>
+                        <a href="http://telegram.com" class="footer-social-link">
+                            <img src="img/icon/telegram.svg" alt="telegram">
+                        </a>
+                        <a href="http://whatsapp.com" class="footer-social-link">
+                            <img src="img/icon/whatsapp.svg" alt="whatsapp">
+                        </a>
+                    </div>
+                    <div class="footer-bottom-name">ИП Человек Ч.Ч.</div>
+                </div>
+
+                <div class="footer-info-wrapper">
+                    <ul class="footer-pages">
+                        <li class="footer-pages-item"><a href="#">Главная</a></li>
+                        <li class="footer-pages-item"><a href="#">О нас</a></li>
+                        <li class="footer-pages-item"><a href="#">Услуги</a></li>
+                        <li class="footer-pages-item">
+                            <a href="#" target="_blank">
+                                Политика конфиденциальности
+                            </a>
+                        </li>
+                    </ul>
+    
+                    <div class="footer-location">
+                        <div>Московская область,</div>
+                        <div>Ленинский район</div>
+                        <a href="mailto:mail@yandex.ru" class="footer-bottom-post">mail@yandex.ru</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <img class="footer-bg-one" src="img/footer/first.svg" alt="background">
+        <img class="footer-bg-two" src="img/footer/second.svg" alt="background">
+        <img class="footer-bg-three" src="img/footer/third.svg" alt="background">
+        <img class="footer-bg-four" src="img/footer/fourst.svg" alt="background">
+    </footer>
+
+    <script src="JS/datepicker.js"></script>
+    <script src="JS/header.js"></script>
+    <script src="JS/order.js"></script>
+</body>
+</html>

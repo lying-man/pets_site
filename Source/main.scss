@@ -1,0 +1,83 @@
+
+@import "_reset.scss";
+@import "_helpers.scss";
+
+body {
+    background: #fff;
+    font-family: $raleway, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.main {
+    min-width: 100%;
+    flex: 1 1 100%;
+}
+
+.wrapper {
+    max-width: $wrapperSize;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.btn-blue {
+    display: inline-block;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    color: #fff;
+    padding: 25px 86px;
+    border-radius: 9999px;
+    background: $blueColor;
+    transition: all .2s ease;
+
+    @include hoverPc {
+        background: darken($blueColor, 20);
+        transition: all .2s ease;
+    }
+
+    @include adaptiv-font(24, 18);
+    @include adaptiv("padding-top", 15, 25);
+    @include adaptiv("padding-bottom", 15, 25);
+    @include adaptiv("padding-right", 24, 86);
+    @include adaptiv("padding-left", 24, 86);
+}
+
+.title-section {
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: $black;
+    font-family: $comforta;
+    text-align: left;
+
+    @include adaptiv-font(64, 26);
+}
+
+.inputPlaceholder {
+    &:focus + label {
+        display: none;
+    }
+    &:not(:placeholder-shown) + label {
+        display: none;
+    }
+}
+
+//disable highlight on mobile
+button,
+input,
+a {
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+}
+
